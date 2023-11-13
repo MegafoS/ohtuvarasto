@@ -1,8 +1,6 @@
 from varasto import Varasto
 
 
-def pylint_tests_test(self,a,b,c,d,e,f,g,h,j,k,l):
-    return True
 def main():
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
