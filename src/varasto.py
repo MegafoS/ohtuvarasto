@@ -19,7 +19,6 @@ class Varasto:
     # huom: ominaisuus voidaan myös laskea.
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo
-
     def lisaa_varastoon(self, maara):
         if maara < 0:
             return
